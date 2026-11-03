@@ -1,0 +1,38 @@
+{
+  "P001": {
+    "id": "P001",
+    "name": "Aarav Shah",
+    "city": "Ahmedabad",
+    "age": 28,
+    "gender": "Male",
+    "height": 1.75,
+    "weight": 72
+  },
+  "P002": {
+    "id": "P002",
+    "name": "Patel",
+    "city": "Surat",
+    "age": 18,
+    "gender": "Male",
+    "height": 1.62,
+    "weight": 58.0
+  },
+  "P005": {
+    "id": "P005",
+    "name": "ss",
+    "city": "sasa",
+    "age": 17,
+    "gender": "Male",
+    "height": 1.06,
+    "weight": 58.1
+  },
+  "P006": {
+    "id": "P006",
+    "name": "item 1",
+    "city": "Ahmadabad",
+    "age": 22,
+    "gender": "Male",
+    "height": 1.8,
+    "weight": 79.0
+  }
+}
