@@ -41,23 +41,4 @@ python -m http.server 5500 --directory frontend
 ```
 Then open http://127.0.0.1:5500.
 
-## Common fixes
-- `requirements.txt` not found: the terminal is in the wrong folder. Open the folder that directly contains `main.py`.
-- `No module named fastapi`: make sure `(.venv)` shows in the terminal, then reinstall requirements.
-- `Could not import module "main"`: run `python -c "import main"` and read the error.
-- Page says it cannot reach the backend: the server is not running or is on a different port.
-- Data is saved in `patients.json`; copy it before manual edits. Height is in metres (1.75), weight in kilograms (72).
 
-## Endpoints
-GET `/`, GET `/patients`, GET `/patient/{patient_id}`, POST `/patients`, PUT `/patient/{patient_id}`, DELETE `/patient/{patient_id}`, GET `/sort?sort_by=age&order=asc`, frontend at `/app`.
-
-## Upload to GitHub
-```powershell
-git init
-git add .
-git commit -m "Patient management app"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-Create the empty repository on github.com first (no README or .gitignore). `patients.json` is committed, so remove any real patient data before pushing.
